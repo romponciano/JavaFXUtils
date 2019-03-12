@@ -13,6 +13,13 @@ import javafx.scene.control.CustomMenuItem;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 
+/**
+ * Credits:
+ * https://stackoverflow.com/questions/36861056/javafx-textfield-auto-suggestions
+ * https://gist.github.com/floralvikings/10290131
+ * @author romuloponciano
+ *
+ */
 public class AutoCompleteTextField extends TextField {
 
 	private TreeSet<String> dados;

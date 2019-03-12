@@ -6,6 +6,6 @@ public class RunExample
 {
     public static void main( String[] args )
     {
-    	Application.launch(Example.class);
+    	Application.launch(DragDrop.class);
     }
 }

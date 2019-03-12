@@ -1,4 +1,4 @@
-package rponciano.DDTable;
+package rponciano.model;
 
 import java.io.Serializable;
 

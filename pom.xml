@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>rponciano</groupId>
-	<artifactId>DDTable</artifactId>
+	<artifactId>YTLessons</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>Drag n Drop Table</name>
+	<name>Youtube Lessons</name>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

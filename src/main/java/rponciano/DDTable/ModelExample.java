@@ -1,4 +1,4 @@
-package rponciano.model;
+package rponciano.DDTable;
 
 import java.io.Serializable;
 
@@ -28,6 +28,17 @@ public class ModelExample implements Serializable {
 
 	public void setName(String name) {
 		this.name = name;
+	}
+	
+	/**
+	 * <B>ONLY NEEDED FOR DCRG</B> 
+	 * This method MUST be @Override in your model class. 
+	 * It must return the String that wants to be 
+	 * displayed next to the CheckBox / RadioButton  
+	 */
+	@Override
+	public String toString() {
+		return name;
 	}
 	
 }

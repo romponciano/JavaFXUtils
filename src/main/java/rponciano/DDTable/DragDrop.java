@@ -19,7 +19,6 @@ import javafx.scene.input.Dragboard;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.input.TransferMode;
 import javafx.stage.Stage;
-import rponciano.model.ModelExample;
 
 public class DragDrop extends Application {
 

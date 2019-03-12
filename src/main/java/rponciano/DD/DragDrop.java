@@ -1,5 +1,6 @@
-package rponciano.DDTable;
+package rponciano.DD;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -20,7 +21,9 @@ import javafx.scene.input.MouseEvent;
 import javafx.scene.input.TransferMode;
 import javafx.stage.Stage;
 
-public class DragDrop extends Application {
+public class DragDrop extends Application implements Serializable {
+
+	private static final long serialVersionUID = 6770146521688171963L;
 
 	@Override
 	public void start(Stage primaryStage) throws Exception {

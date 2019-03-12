@@ -4,7 +4,7 @@ import java.io.Serializable;
 
 public class ModelExample implements Serializable {
 	
-	private static final long serialVersionUID = -7730075641033556437L;
+	private static final long serialVersionUID = -9169925163992193794L;
 	
 	private Long id;
 	private String name; 

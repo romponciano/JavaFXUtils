@@ -96,4 +96,7 @@ public class DragDrop extends Application {
 		table.getColumns().addAll(idCol, nameCol);
 	}
 
+	public static void main(String[] args) {
+		Application.launch();
+	}
 }

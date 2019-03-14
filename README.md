@@ -1,10 +1,21 @@
 # Youtube Lessons
 **TODO About**
 
-1. [How to run](#1-How-to-run)
-2. [License](#2-License)
+#### ![ACTF - Auto Complete Text Field](https://github.com/rponciano/YTLessons/tree/master/src/main/java/rponciano/ACTF)
+Class created to look up user suggestions when entering text into a TextField. These suggestions are based on a list that must be passed in the constructor, in addition to the maximum number of suggestions that will be displayed.
 
-## 1. How to run
+#### ![AHTV - Auto Header Table View](https://github.com/rponciano/YTLessons/tree/master/src/main/java/rponciano/AHTV)
+Class created to make it easy to create the JavaFX TableView header. With this class, just instantiate and call a method for the header to be created based on the data class of the table.
+
+#### ![DCRG - Dynamic CheckBox/RadioButton Group](https://github.com/rponciano/YTLessons/tree/master/src/main/java/rponciano/DCRG)
+Class to generate list of checkboxes or radios, dynamically. The class generates the group from an Object list.
+
+#### ![DD - Drag & Drop demonstration](https://github.com/rponciano/YTLessons/tree/master/src/main/java/rponciano/DD)
+
+#### ![LWC - List With Control](https://github.com/rponciano/YTLessons/tree/master/src/main/java/rponciano/LWC)
+Class created to manage a layout containing a list, a field for the user to add data (combobox or textfield) and two buttons to control: add or remove item from the list.
+
+## How to run
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
@@ -34,6 +45,6 @@ java -jar target/...*.jar
 
 You should see the result and done! 
 
-## 2. License
+## License
 
 The code is under the [Common Creative License BY-NonCommercial](https://creativecommons.org/licenses/by-nc/4.0/legalcode)

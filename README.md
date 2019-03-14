@@ -1,5 +1,5 @@
-# Youtube Lessons
-**TODO About**
+# YT Lessons
+A bunch of utils class and demonstration of Java code with JavaFX.
 
 #### ![ACTF - Auto Complete Text Field](https://github.com/rponciano/YTLessons/tree/master/src/main/java/rponciano/ACTF)
 Class created to look up user suggestions when entering text into a TextField. These suggestions are based on a list that must be passed in the constructor, in addition to the maximum number of suggestions that will be displayed.

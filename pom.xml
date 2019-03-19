@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>rponciano</groupId>
-	<artifactId>YTLessons</artifactId>
+	<artifactId>javafxutils</artifactId>
 	<version>0.0.1</version>
 	<packaging>jar</packaging>
 
-	<name>Youtube Lessons</name>
+	<name>JavaFX Utils</name>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -119,6 +119,25 @@
 								<descriptorRef>jar-with-dependencies</descriptorRef>
 							</descriptorRefs>
 							<finalName>${project.artifactId}-LWC</finalName>
+						</configuration>
+						<phase>package</phase>
+						<goals>
+							<goal>single</goal>
+						</goals>
+					</execution>
+					<execution>
+						<id>build-PBWS</id>
+						<configuration>
+							<appendAssemblyId>false</appendAssemblyId>
+							<archive>
+								<manifest>
+									<mainClass>rponciano.PBWS.RunExample</mainClass>
+								</manifest>
+							</archive>
+							<descriptorRefs>
+								<descriptorRef>jar-with-dependencies</descriptorRef>
+							</descriptorRefs>
+							<finalName>${project.artifactId}-PBWS</finalName>
 						</configuration>
 						<phase>package</phase>
 						<goals>

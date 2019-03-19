@@ -15,6 +15,9 @@ Class to generate list of checkboxes or radios, dynamically. The class generates
 #### ![LWC - List With Control](https://github.com/rponciano/YTLessons/tree/master/src/main/java/rponciano/LWC)
 Class created to manage a layout containing a list, a field for the user to add data (combobox or textfield) and two buttons to control: add or remove item from the list.
 
+#### ![PBWS - Progress Bar With Service](https://github.com/rponciano/JavaFXUtils/tree/master/src/main/java/rponciano/PBWS)
+Class created for progress bar creation when using methods that may take time to load/terminate.
+
 ## How to run
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.

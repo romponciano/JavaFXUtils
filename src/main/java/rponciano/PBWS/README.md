@@ -2,10 +2,11 @@
 Class created for progress bar creation when using methods that may take time to load/terminate.
 
 This code<br>
-![LWC-code](https://user-images.githubusercontent.com/6250218/54213594-6bd5dc80-44c3-11e9-8c12-3b34d71da862.png)
+![PWBS-code](https://user-images.githubusercontent.com/6250218/54612602-00968800-4a38-11e9-9dcf-b5b456fc5b47.png)
 
 Generate this result<br>
-![result](https://user-images.githubusercontent.com/6250218/54117772-4b792580-43d0-11e9-9729-b9ab2b542155.png)
+![result](https://user-images.githubusercontent.com/6250218/54612603-012f1e80-4a38-11e9-9672-5f295bdc241e.png)
+![result2](https://user-images.githubusercontent.com/6250218/54612605-012f1e80-4a38-11e9-8c6d-51ee243ee682.png)
 
 <b>When instantiating an object of this class, you must override two methods:</b>
 

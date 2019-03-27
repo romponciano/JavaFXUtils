@@ -18,6 +18,9 @@ Class created to manage a layout containing a list, a field for the user to add 
 #### ![PBWS - Progress Bar With Service](https://github.com/rponciano/JavaFXUtils/tree/master/src/main/java/rponciano/PBWS)
 Class created for progress bar creation when using methods that may take time to load/terminate.
 
+#### ![TW - Transfer Window](https://github.com/rponciano/JavaFXUtils/tree/master/src/main/java/rponciano/TW)
+Class created to implement a transfer window between two lists. This class has a list (right side) with all the possibilities and a list (left side) where the options desired by the user are sent through arrow buttons.
+
 ## How to run
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
